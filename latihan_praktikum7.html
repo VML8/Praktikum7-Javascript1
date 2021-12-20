@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript</title>
+</head>
+
+<body>
+
+<h1 id="kendaraan"></h1>
+<button id="klakson" onclick="klaksonButton()"></button>
+<div>
+	<p id="..."></p>
+</div>
+
+<button id="gas" onclick="tombolGas()"></button>
+  <p id="speed">Kecepatan: 20 km/h</p>
+
+
+<script>
+	// console.log('Hello World!');
+	// window.alert('Hello World!');
+	// document.write('<div style="width: 50px; height: 50px; background-color: black;">')
+
+	document.getElementById('kendaraan').innerHTML = 'Motor'
+
+	// camelCase : Caps all first letter after first World						
+	var nama = 'Luqmannul Hakim'
+	console.log(nama);
+
+	document.getElementById('klakson').innerHTML = 'Klakson'
+	document.getElementById('...').innerHTML = '...'
+	
+	function klaksonButton() {
+		var bunyi = document.getElementById('...');
+		bunyi.innerHTML = 'Honk!';
+		bunyi.style.color = "#FF0000";
+		bunyi.style.fontSize = '550px'
+		bunyi.style.margin = 'auto'
+	}
+	
+	gas.innerHTML = 'Gas';
+	var add20kmh = 20;
+	function tombolGas() {
+		var	speed = document.getElementById('speed');
+		var add20kmh =+ 20;
+		console.log(add20kmh = add20kmh + 20)
+		speed.innerHTML = 'Kecepatan: ' + add20kmh + ' km/h';
+
+	}
+
+	// klaksonButton()
+
+
+
+
+</script>
+</body>
+
+</html>
